@@ -118,6 +118,7 @@ device 			= torch.device("cuda:0")
 loadEpochNum	= 152
 goldenTest	= False
 
+'''
 #/home/sajal.maheshwari/BlurMapExp/
 if goldenTest == False :
 	#rootDirTest		= '/home/sajal.maheshwari/BlurMapExp/SelfieDataAIF/testData/'
@@ -132,6 +133,7 @@ else :
 	rootDirTest             = '/home/sajal.maheshwari/BlurMapExp/goldenRealData/'
 	rootDirLoad             = '/home/sajal.maheshwari/BlurMapExp/BlurMap/checkpoints/'
 	rootDirResults  = '/home/sajal.maheshwari/BlurMapExp/BlurMap/goldenResults/'
+'''
 
 with torch.no_grad() :
 	test()

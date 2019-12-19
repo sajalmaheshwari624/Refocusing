@@ -333,12 +333,13 @@ jointTraining = False
 beta1			= 0.9
 beta2			= 0.999
 
+'''
 rootDirTrainLF    = '/home/sajal.maheshwari/BlurMapExp/FSDataLarge/trainData/'
 rootDirValidLF    = '/home/sajal.maheshwari/BlurMapExp/FSDataLarge/validData/'
 rootDirSave     = '/home/sajal.maheshwari/BlurMapExp/Baseline2SlicesInterleaved/checkpoints/'
 rootDirTrainReal = '/home/sajal.maheshwari/BlurMapExp/SelfieDataAIF/trainData/'
 rootDirValidReal = '/home/sajal.maheshwari/BlurMapExp/SelfieDataAIF/validData/'
-	
+'''	
 #rootDirTrain 	= '/home/tirth.maniar/sajal/BlurMap/data/trainData/'
 #rootDirValid 	= '/home/tirth.maniar/sajal/BlurMap/data/validData/'
 #rootDirSave 	= '/home/tirth.maniar/sajal/BlurMap/checkpoints/'

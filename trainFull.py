@@ -192,10 +192,11 @@ jointTraining = True
 beta1			= 0.9
 beta2			= 0.999
 
+'''
 rootDirTrain    = '/home/sajal.maheshwari/BlurMapExp/PortraitData/trainData/'
 rootDirValid    = '/home/sajal.maheshwari/BlurMapExp/PortraitData/validData/'
 rootDirSave     = '/home/sajal.maheshwari/BlurMapExp/BlurMapv2/checkpoints/'
-	
+'''	
 (trainLossArray, validLossArray) = train(epochs)
 lossGraph = plt.plot(trainLossArray)
 lossGraph = plt.plot(validLossArray)
