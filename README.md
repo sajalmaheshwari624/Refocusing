@@ -5,4 +5,5 @@
 4. For facial images with no ground truth availability, only use supervision at the reconstruction stage.
 5. Perform an interleaved training for the two datasets
 
-#Train the model
+Train the model
+
