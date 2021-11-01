@@ -5,8 +5,11 @@
 4. For facial images with no ground truth availability, only use supervision at the reconstruction stage.
 5. Perform an interleaved training for the two datasets
 
-Train the model
+#Train the model
+Change the dataset folder names to appropriate full path
 Run python trainFull.py
 
-Test the model
-Run python test.py
+#Test the model
+Run python testFull.py
+
+Please email at sajalmaheshwari624@gmail.com to request for the datasets used by us.
