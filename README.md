@@ -6,4 +6,7 @@
 5. Perform an interleaved training for the two datasets
 
 Train the model
+Run python trainFull.py
 
+Test the model
+Run python test.py
